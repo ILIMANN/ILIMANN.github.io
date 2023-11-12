@@ -1,0 +1,102 @@
+body {
+    background: url(bin/background_image.png);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+h1,
+h2 {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+h1 {
+    font-size: 40;
+    margin-top: 0;
+    margin-bottom: 15;
+}
+h2 {
+    font-size: 30;
+}
+
+h1,
+h2,
+p {
+    text-align: center;
+}
+
+hr {
+    background-color: dodgerblue;
+    border-color: dodgerblue;
+    height: 2px;
+}
+
+.established {
+    font-style: italic;
+}
+
+.menu {
+    width: 80%;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18;
+}
+
+.product {
+    text-align: left;
+    width: 74%;
+}
+
+.price {
+    text-align: right;
+    width: 24%;
+}
+
+#instagram-logo ,#brand-logo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    vertical-align: middle;
+}
+
+#brand-logo{
+    margin-left: 10px;
+}
+
+#site-link{
+    margin-top: -20px;
+}
+
+footer {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.footer-link{
+    color: deepskyblue;
+}
+
+.footer-link:hover{
+    color: cornflowerblue
+}
+
+.footer-link:active{
+    color: blue;
+}
+
+.footer-link:visited{
+    color: blueviolet;
+}
+
+.bottom-line {
+    margin-top: 25px;
+}
