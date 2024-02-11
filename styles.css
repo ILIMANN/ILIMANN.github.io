@@ -1,0 +1,33 @@
+#main-text {
+    text-align: center;
+    margin: auto;
+    margin-top: 10%;
+    padding: 0%;
+}
+h1 {
+}
+
+.main-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    #main-text {
+        margin-top: 30%;
+        margin-bottom: 30px;
+        font-size: x-small;
+    }
+}
